@@ -1,0 +1,70 @@
+.nav a{
+    color: #5a5a5a;
+    font-size: 11px;
+    font-weight: bold;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-transform: uppercase;
+}
+
+.nav li{
+    display: inline;
+}
+
+.jumbotron{
+    height:500px;
+    background-image: url("../img/jump.jpg");
+    background-position: fixed;
+    background-color: #cccccc;
+    text-align: center;
+}
+
+.jumbotron .container {
+    position: relative;
+    top:10px;
+}
+
+.jumbotron h1{
+    color:#fff;
+    font-size:48px;
+    font-weight: bold;
+    font-family: 'Shift', sans-serif;
+} 
+
+.jumbotron p{
+    color:#fff;
+    font-size:30px;
+}
+
+.learn-more{
+    background-color:#f7f7f7;
+}
+
+.learn-more h3{
+    font-size:18px;
+    font-weight:bold;
+    font-family:'Shift', sans-serif;
+}
+
+.learn-more a{
+   color:#00b0ff;
+}
+
+.learn-more img{
+    height: 200px;
+    width: 200px;
+    background-color: #efefef; 
+    border: 1px solid #cccccc;
+}
+
+.learn-more .col-md-4 img{
+    text-align: center;
+}
+
+.logo{
+    top: -100px;
+    height: 200px;
+    width: 200px;
+}
