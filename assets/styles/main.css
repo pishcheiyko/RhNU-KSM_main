@@ -57,6 +57,7 @@
     width: 200px;
     background-color: #efefef; 
     border: 1px solid #cccccc;
+    vertical-align: middle;
 }
 
 .learn-more .col-md-4 img{
@@ -67,4 +68,33 @@
     top: -100px;
     height: 200px;
     width: 200px;
+}
+
+.news{
+    background-color: #efefef;
+    border-bottom: 1px solid #E0E0E0;
+    text-align: center;
+}
+
+.news .col-md-6{
+    height: 300px;
+    padding:0;
+}
+
+.news .row{
+    padding-bottom: 4px;
+    padding-top: 4px;
+}
+
+.news .container{
+    margin-bottom:15px;
+}
+
+.news .border{
+    border:1px solid #E0E0E0;
+    padding: 2px;
+    margin:4px;
+    height: 300px;
+    text-align: center;
+    vertical-align: middle;
 }
