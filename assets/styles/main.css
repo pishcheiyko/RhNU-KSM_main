@@ -1,5 +1,6 @@
 .main_menu_wrapper{
     position: relative;
+    float:left;
 }
 
 .main_menu_wrapper img{
@@ -8,7 +9,7 @@
     position: absolute;
     top:5px;
     left:5px;
-    z-index: 1;
+    z-index: 5;
 }
 
 .main-menu{
@@ -17,9 +18,10 @@
     position: absolute;
     top: 0;
     left: 0;
-    background-color: #CCCCCC;
+    background: none repeat scroll 0% 0% #CCCCCC;
     overflow: hidden;
     box-shadow: 0 0 2px;
+    z-index: 4;
 }
 
 .main-menu h3{
@@ -31,6 +33,8 @@
     margin-bottom: 0;
     font-weight: bold;
     text-transform: uppercase;
+    overflow: hidden;
+    padding-left: 55px;
 }
 
 .main-menu ul{
@@ -44,6 +48,11 @@
     font-size: 14px;
     font-weight: bold;
     text-transform: uppercase;
+    overflow: hidden;
+}
+
+.main-menu li,h3{
+    white-space: nowrap;
 }
 
 .main-menu ul .active_green{
@@ -141,6 +150,10 @@
     font-size:30px;
 }
 
+.jumbotron img, p, h1{
+    
+}
+
 .learn-more{
     background-color:#f7f7f7;
 }
@@ -163,8 +176,12 @@
     vertical-align: middle;
 }
 
-.learn-more .col-md-4 img{
+.learn-more .col-md-4{
     text-align: center;
+}
+
+.learn-more p, h3{
+    text-align: left;
 }
 
 .logo{
